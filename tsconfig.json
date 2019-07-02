@@ -1,0 +1,9 @@
+{
+  "extends": "@cprecioso/tsconfig/extendscript.json",
+  "compilerOptions": {
+    "noLib": true,
+    "types": ["types-for-adobe/InDesign/2018"],
+    "outDir": "lib"
+  },
+  "include": ["src/**/*.ts"]
+}
